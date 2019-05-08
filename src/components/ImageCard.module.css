@@ -1,0 +1,27 @@
+.card img{
+    width: 250px;
+    grid-row-end: span 2;
+}
+
+.card {
+    width: 250px;
+    position: relative;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    opacity: 0.5;
+    background-color: black;
+    color: white;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.card:hover .text{
+    visibility: visible;
+}

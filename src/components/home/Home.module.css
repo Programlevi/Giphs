@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    padding-top:60px;
+    margin:0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body > div{
+    height: 100%;
+}
+
+.app{
+    width: 100%;
+    height: 100%;
+}
+

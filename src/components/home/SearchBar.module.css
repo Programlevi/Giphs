@@ -1,0 +1,36 @@
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formInput{
+    margin-right: 8px;
+    width: 500px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 8px
+}
+
+.formInput:focus{
+    outline: none;
+}
+
+.formButton{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.formButton:active{
+    color: blue;
+    background-color: white;
+    border:2px solid blue;
+}
+
+.formButton:focus{
+    outline: none;
+}
