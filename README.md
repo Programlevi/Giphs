@@ -2,4 +2,4 @@
 A react app for searching through gifs
 
 ## Deployed
-gifs-finder-app.netlify.app
+https://gifs-finder-app.netlify.app/favorites
